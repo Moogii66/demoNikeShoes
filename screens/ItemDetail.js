@@ -113,7 +113,7 @@ const ItemDetail = ({ route, navigation }) => {
 
                         <View style={{ flex: 1.5, alignItems: 'flex-end', justifyContent: 'flex-end' }}>
                             <Text style={{ color: COLORS.darkGreen, ...FONTS.h3 }}>
-                                $ {itemInfo.price.toFixed(2)}
+                                 {itemInfo.price.toFixed(2)}
                             </Text>
                         </View>
                     </View>
